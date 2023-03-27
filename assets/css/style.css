@@ -142,4 +142,12 @@ tr > td:nth-child(3) {
     background-image: url(../img/monitor.jpg);
 }
 
+.suggestion-title {
+    color: var(--color-white);
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
   
