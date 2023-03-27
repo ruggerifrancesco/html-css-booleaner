@@ -18,6 +18,10 @@ main {
     margin: 8px;
 }
 
+footer {
+    margin: 8px;
+}
+
 /* Header Section */
 .top-banner {
     background: 
@@ -53,7 +57,8 @@ main {
     margin-bottom: 25px;
 }
 
-.subtitle {
+/* Titoli con proprieta uguali */
+.subtitle, .title-footer {
     color: var(--color-grey);
     margin: 0
 }
@@ -123,4 +128,17 @@ tr > td:nth-child(2) {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/* Footer Section */
+.content-suggestion {
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.footer .content-suggestion:nth-child(1) {
+    background-image: url(../img/monitor.jpg);
+}
+
   
