@@ -1,4 +1,12 @@
 /* Root Section */
+:root {
+    --top-banner-bg: #4BA4F2;
+    --table-sheets-header: #20A9E5;
+    --table-sheets-rows: #B3ECF2;
+    --text-highlighted: #F2E205;
+    --color-white: #ffffff;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
