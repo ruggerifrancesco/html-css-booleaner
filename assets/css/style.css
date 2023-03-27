@@ -118,26 +118,27 @@ tbody > tr:nth-child(2) {
     background-color: var(--color-white);
 }
 
-tr > th:nth-child(1),
-tr > th:nth-child(2) {
-    padding-right: 200px;
+tr > th:nth-child(3){
+    width: 50%;
 }
 
-tr > td:nth-child(1),
-tr > td:nth-child(2) {
+tr > td:nth-child(3) {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 /* Footer Section */
 .content-suggestion {
-    border: 1px solid red;
     width: 300px;
     height: 200px;
     margin-top: 10px;
 }
 
-.footer .content-suggestion:nth-child(1) {
+.suggestion-one{
+    background-image: url(../img/graph.jpg);
+}
+
+.suggestion-two {
     background-image: url(../img/monitor.jpg);
 }
 
