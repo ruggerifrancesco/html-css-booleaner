@@ -1,5 +1,6 @@
 /* Root Section */
 :root {
+    /* Color Scheme */
     --top-banner-bg: #4BA4F2;
     --table-sheets-header: #20A9E5;
     --table-sheets-rows: #B3ECF2;
@@ -65,4 +66,13 @@ body {
     color: var(--table-sheets-header);
     text-decoration: none;
 }
+
+.photo-authors {
+    font-family: 'Noto Serif', serif;
+    font-size: 0.7em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Main Section */
 
