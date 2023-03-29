@@ -61,7 +61,7 @@ footer {
     margin-bottom: 25px;
 }
 
-/* Titoli con proprieta uguali */
+/* Titles with equal values */
 .subtitle, .title-footer {
     color: var(--color-grey);
     margin: 0
