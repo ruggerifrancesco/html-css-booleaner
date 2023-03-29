@@ -9,6 +9,10 @@
     --color-grey: grey;
 }
 
+/* Main Tags Section Begin
+   (little reset for making banner
+   section  the only one with no margin) */
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -26,8 +30,8 @@ footer {
 .top-banner {
     background: 
     var(--top-banner-bg) 
-    url(../img/pattern.png)
-    repeat;
+    url(../img/pattern.png);
+    /* repeat; (Removed repeat value, functioning by default)*/
     height: 180px;
 }
 
@@ -92,40 +96,43 @@ footer {
     padding-left: 16px;
 }
 
-/* Table Sheets Content */
-table, td, th {  
-    text-align: left;
-    border-collapse: collapse;
-}
+        /* Table Sheets Content */
+        table, td, th {  
+            text-align: left;
+            border-collapse: collapse;
+        }
 
-thead{
-    background-color: var(--table-sheets-header);
-    color: var(--color-white);
-    font-family: 'Noto Serif', serif;
-    font-size: 0.8em;
-    font-weight: 400;
-    height: 8px;
-}
+        thead{
+            background-color: var(--table-sheets-header);
+            color: var(--color-white);
+            font-family: 'Noto Serif', serif;
+            font-size: 0.8em;
+            font-weight: 400;
+            height: 8px;
+        }
 
-tbody{
-    background-color: var(--table-sheets-rows);
-    font-size: 0.8em;
-    padding-top: 20px;
-    font-family: 'Noto Serif', serif;
-}
+        tbody{
+            background-color: var(--table-sheets-rows);
+            font-size: 0.8em;
+            padding-top: 20px;
+            font-family: 'Noto Serif', serif;
+        }
 
-tbody > tr:nth-child(2) {
-    background-color: var(--color-white);
-}
 
-tr > th:nth-child(3){
-    width: 50%;
-}
+        /* Added plus padding to table cells for rich visual */
+        .table-content-spacing {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
 
-tr > td:nth-child(3) {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+        /* Changed selector with id, to be in line with the excercise */
+        #table-row-white {
+            background-color: var(--color-white);
+        }
+
+        #table-content-lenght {
+            width: 50%;
+        }
 
 /* Footer Section */
 .content-suggestion {
